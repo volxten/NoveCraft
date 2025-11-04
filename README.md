@@ -1,3 +1,2 @@
-<center # LightOS
-A custom linux-based OS.
-\>
+# Light OS
+A custom linux distro!
