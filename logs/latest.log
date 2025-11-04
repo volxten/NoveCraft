@@ -1,76 +1,165 @@
-[20:02:47] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[20:02:47] [Server thread/INFO]: Loading properties
-[20:02:47] [Server thread/INFO]: Default game type: SURVIVAL
-[20:02:47] [Server thread/INFO]: Generating keypair
-[20:02:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:02:47] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[20:02:47] [Server thread/INFO]: Using epoll channel type
-[20:02:47] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-741a1bd (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[20:02:47] [Server thread/WARN]: Failed to load user banlist: 
-java.io.FileNotFoundException: banned-players.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.JsonList.load(JsonList.java:171) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.z(SourceFile:99) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.<init>(SourceFile:25) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:179) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:504) ~[server.jar:git-Bukkit-741a1bd]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[20:02:47] [Server thread/WARN]: Failed to load ip banlist: 
-java.io.FileNotFoundException: banned-ips.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.JsonList.load(JsonList.java:171) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.y(SourceFile:91) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.<init>(SourceFile:27) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:179) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:504) ~[server.jar:git-Bukkit-741a1bd]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[20:02:47] [Server thread/WARN]: Failed to load operators list: 
-java.io.FileNotFoundException: ops.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.JsonList.load(JsonList.java:171) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.A(SourceFile:107) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.<init>(SourceFile:29) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:179) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:504) ~[server.jar:git-Bukkit-741a1bd]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[20:02:47] [Server thread/WARN]: Failed to load white-list: 
-java.io.FileNotFoundException: whitelist.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
-	at com.google.common.io.Files.newReader(Files.java:86) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.JsonList.load(JsonList.java:171) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.C(SourceFile:123) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.<init>(SourceFile:30) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:179) ~[server.jar:git-Bukkit-741a1bd]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:504) ~[server.jar:git-Bukkit-741a1bd]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[20:02:47] [Server thread/INFO]: Preparing level "world"
-[20:02:47] [Server thread/WARN]: Unable to find spawn biome
-[20:02:48] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1097524855427723102)
-[20:02:49] [Server thread/INFO]: Preparing spawn area: 11%
-[20:02:50] [Server thread/INFO]: Preparing spawn area: 25%
-[20:02:51] [Server thread/INFO]: Preparing spawn area: 51%
-[20:02:52] [Server thread/INFO]: Preparing spawn area: 85%
-[20:02:52] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1097524855427723102)
-[20:02:53] [Server thread/INFO]: Preparing spawn area: 30%
-[20:02:54] [Server thread/INFO]: Preparing spawn area: 68%
-[20:02:55] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1097524855427723102)
-[20:02:56] [Server thread/INFO]: Preparing spawn area: 92%
-[20:02:56] [Server thread/INFO]: Done (8.635s)! For help, type "help" or "?"
-[20:03:06] [Server thread/INFO]: Stopping the server
-[20:03:06] [Server thread/INFO]: Stopping server
-[20:03:06] [Server thread/INFO]: Saving players
-[20:03:06] [Server thread/INFO]: Saving worlds
-[20:03:06] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[20:03:07] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[20:03:08] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[20:08:29] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:08:29] [Server thread/INFO]: Loading properties
+[20:08:29] [Server thread/INFO]: Default game type: SURVIVAL
+[20:08:29] [Server thread/INFO]: Generating keypair
+[20:08:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:08:30] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[20:08:30] [Server thread/INFO]: Using epoll channel type
+[20:08:30] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-741a1bd (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:08:30] [Server thread/INFO]: Preparing level "world"
+[20:08:30] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1097524855427723102)
+[20:08:31] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1097524855427723102)
+[20:08:31] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1097524855427723102)
+[20:08:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:08:31] [Server thread/INFO]: Done (1.607s)! For help, type "help" or "?"
+[20:08:34] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+
+[20:08:34] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/achievement: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/blockdata: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/entitydata: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/give: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/list: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/me: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/op: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/replaceitem: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/say: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/stats: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/testforblocks: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/time: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+
+[20:08:34] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mA Mojang provided command.[m
+
+[20:08:45] [Server thread/INFO]: Unknown command. Type "help" for help.[m
+
+[20:08:48] [Server thread/INFO]: Unknown command. Type "help" for help.[m
+
+[20:09:27] [Server thread/INFO]: Unknown command. Type "help" for help.[m
+
+[20:09:39] [Server thread/INFO]: Stopping the server
+[20:09:39] [Server thread/INFO]: Stopping server
+[20:09:39] [Server thread/INFO]: Saving players
+[20:09:39] [Server thread/INFO]: Saving worlds
+[20:09:39] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[20:09:39] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[20:09:39] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
